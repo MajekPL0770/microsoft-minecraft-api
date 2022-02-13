@@ -1,0 +1,29 @@
+{
+  "name": "microsoft-minecraft-api",
+  "version": "1.0.0",
+  "description": "U can get the minecraft account name, uuid and other info using this",
+  "main": "main.js",
+  "scripts": {
+    "test": "node ./main.js"
+  },
+  "author": "! Majek_PL#7931",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MajekPL0770/microsoft-minecraft-api.git"
+  },
+  "keywords": [
+    "microsoft",
+    "oauth",
+    "minecraft",
+    "authorization"
+  ],
+  "bugs": {
+    "url": "https://github.com/MajekPL0770/microsoft-minecraft-api/issues"
+  },
+  "homepage": "https://github.com/MajekPL0770/microsoft-minecraft-api#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "needle": "^3.0.0"
+  }
+}
