@@ -1,6 +1,6 @@
-let clientID = "02f11c50-3ccb-4ba4-a551-634633f85580",
+let clientID = ""// client id from azure,
   redirectURI = "http://localhost:1337/auth",
-  clientSecret = "9o57Q~pSBA52bKoAja~gGIsPa1v4wAuMiSlwl";
+  clientSecret = ""// client secret from azure;
 
 // Microsoft OAuth Flow
 let link = `https://login.live.com/oauth20_authorize.srf?client_id=${clientID}&response_type=code&redirect_uri=${redirectURI}&scope=XboxLive.signin%20offline_access`;
